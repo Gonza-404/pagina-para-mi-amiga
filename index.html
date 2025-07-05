@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Espero te guste!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 style="margin-top: 40px;">Para ti, Daya 💕</h1>
+
+  <p>
+    La verdad te has convertido en una persona muy especial para mi, tu amistad significa mucho para mi, me enseñaste que a pesar de todo
+    podemos seguir saliendo adelante, solo espero que algun dia nos volvamos a encontrar y que podamos compartir mas recuerdos juntos.
+    Asi como dijimos que hariamos, se que todo te saldra bien y que si necesitas a alguien aqui estoy para ti, lo estare siempre.
+   </p>
+   <p>
+    Ahora:
+  </p>
+
+  <button class="boton" id="boton1" onclick="mostrarCorazon('¡Te Quiero Mucho!')">¡Haz Click Aquí!</button>
+  <button class="boton oculto" id="boton2" onclick="mostrarCorazon('¡Te Voy a Extrañar!')">Haz click de nuevo</button>
+
+  <div class="corazon-container" id="corazonContainer">
+    <svg id="heartSVG" viewBox="0 0 512 512">
+      <path id="heartPath"
+        d="M256,472
+           C256,472 32,312 80,176
+           C104,104 184,80 256,160
+           C328,80 408,104 432,176
+           C480,312 256,472 256,472"
+        fill="none" stroke="#e91e63" stroke-width="6" />
+      <text id="heartText" x="50%" y="52%" text-anchor="middle" fill="#e91e63"
+        font-size="24" font-family="Segoe UI" opacity="0"></text>
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
